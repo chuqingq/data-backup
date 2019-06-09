@@ -8,7 +8,7 @@
 
 ## 详细需求
 
-1. 源备份路径：`192.168.0.200:/home/dilu/rsync_data_src/data`
+1. 源备份路径：`192.168.0.200:/home/dilu/rsync_data_src`
 2. 目标备份路径：`192.168.0.201:/home/chuqq/rsync_data_dst`
 3. 备份时间/间隔：每天凌晨2点
 4. 备份保留时间：10天
@@ -68,9 +68,3 @@ echo "backup success"
 
 
 ## 需要备份的服务数据
-
-1. gitlab：代码
-2. svn：归档的文档、资料
-3. metisIM：聊天的数据
-4. TODO 需要收集
-
